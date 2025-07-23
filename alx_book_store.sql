@@ -16,7 +16,7 @@ CREATE TABLE IF NOT EXISTS Books (
     price DOUBLE NOT NULL,
     publication_date DATE,
     FOREIGN KEY (author_id) REFERENCES Authors(author_id)
-)
+);
 
 
 -- Table: Customers
